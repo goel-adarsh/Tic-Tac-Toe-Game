@@ -1,0 +1,22 @@
+/* rem : relative to font-size of root element
+object-fit : contain // Aspect ratio maintained and resized to fit within the given dimension
+             fill // Only resized. No aspect ratio is maintained. Hence, squished/stretched to fit.
+             cover // Will also be clipped + contain
+filter - Visual effects to an element  
+filter : drop-shadow(h-shadow v-shadow blur color)          
+             
+             
+             
+             
+             */
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 8rem;
+  object-fit: contain;
+  margin: 3rem auto 1rem auto;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+}
